@@ -1,13 +1,10 @@
-function lifeInWeeks(age) {
-  let year =  90 
-  let weeks = 52
-  let days  =  356
-  let months = 12
-  let result = year - age
-  console.log(`You have ${result * days} days, ${result * weeks} weeks, and ${result * months} months left`);
+function loveCalculator(you, partner) {
+  const randScore = Math.floor(Math.random()*100)
+  alert(`${you} and ${partner} are ${randScore}% match!!`)
 }
 
 
-let age = parseInt(prompt("Please Enter Your Current Age: "));
+let person1 = prompt("Please Enter Your Name: ");
+let person2 = prompt("Please Enter Your Partners Name: ");
 
-lifeInWeeks(age);
+loveCalculator(person1, person2)
